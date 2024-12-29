@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Boutons</title>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/67704947af5bfec1dbe4178a/1ig79sh6u';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+   <style >
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: orange;
+            margin: 0;
+            height: 100vh 
+            Color :red 
+          }
+        
+        .container {
+            display: flex;
+            justify-content: center; /* Afovoany amin'ny lafiny horizontal */
+            align-items: center; /* Afovoany amin'ny lafiny vertikal */
+            height: 100vh; /* Hahafeno ny haavon'ny efijery */
+            margin: 0;
+        }
+
+        img {
+            max-width: 100%; /* Atao mifanaraka amin'ny sakany */
+            max-height: 100%; /* Atao mifanaraka amin'ny haavony */
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: #007BFF;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar button {
+            background-color: #ffffff;
+            color: #007BFF;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .navbar button:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        .content {
+            margin-top: 70px;
+            padding: 20px;
+        }
+
+        .content h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .content p {
+            font-size: 16px;
+            color: #555;
+        }
+
+ 
+.link-container {
+    text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+
+    </style>
+  
+</head>
+
+<body>
+    
+
+
+    <div class="navbar">
+        <button onclick="showContent('investissement')">Site d'investissement</button>
+        <button onclick="showContent('gratuit')">Site gratuit</button>
+        <button onclick="showContent('formation')">Formation HTML gratuit & payante </button>
+        <button onclick="showContent('depot')">Dépôt</button>
+        <button onclick="showContent('retrait')">Retrait</button>
+        <button onclick="showContent('cv')">Création CV et Lettre de motivation</button>
+        <button onclick="showContent('web')">Création site Web</button>
+        <button onclick="showContent('airdrop')">Projet airdrop</button>
+    </div>
+
+    <div class="content" id="content">
+        <h1>TONGASOA ETO AMIN'NY PLATE-FORME ASA EN LIGNE </h1><br ><br ><br >
+        <img src="sary.jpg" alt="">
+        <p>Safidio eo amin'ny bouton eo ambony ny fampianarana tinao. Azonao atao ihany koa ny manao dépôt sy retrait eto amin'ny pejy, safidio ny bouton retrait /dépôt </p>
+    </div>
+
+    <script>
+        function showContent(section) {
+            const contentDiv = document.getElementById('content');
+            let contentHTML = '';
+
+            switch (section) {
+                case 'investissement':
+                    contentHTML = `
+                      <br ><br ><br ><h1>INONA NY ATAO HOE ATAO HOE SITE D'INVESTISSEMENT ? </h1>
+                         <img <img src="acc4.jpg" alt="acc" width="500" height="450">
+                        
+                        <p>Ny site d'investissement dia tranonkala na sehatra an-tserasera izay ahafahan'ny olona mampiasa vola amin'ny endrika samihafa mba hahazoana tombony. Ireo tranonkala ireo dia mety manolotra karazana fampiasam-bola amin'ny alalan'ny internet, izay vita amin'ny alalan' ny téléphone eo antananao io ihany . Amin'ny maha-site d'investissement azy dia misy vola ilaina ampiasaina ihany Amin'izany. Araho ny fanazavana makasika ny karazana fomba fampiasambola anakiroa izay itanao eto 7j . </p> <br > <br >
+                        
+                        <p>
+                            
+                            <h2>4. Crowdfunding</h2><br >
+Fampiasam-bola amin'ny alalan'ny fanohanana tetikasa iray na orinasa vaovao.
+
+<h6>Fomba fiasa:</h6><br >
+Ny mpampiasa vola dia mametraka vola amin'ny tetikasa iray amin'ny sehatra toy ny Kickstarter, GoFundMe, na SeedInvest, ary mahazo valisoa (product, dividendes, na ampaham-bola).
+
+<h6>Ohatra:</h6><br >
+
+Mametraka 10$ ianao  amin'ny orinasa iray, ary mahazo ampaham-bola rehefa mivoatra ny orinasa, mety hahazo 2% à 3% an'ilay 10$ iny ianao, miankina amin'ny hatanjaky ny orinasa ihany ny mety ho haben'i vola azonao isan'andro .
+Manohana tetikasa teknolojia ka mahazo ny vokatra voalohany maimaimpoana. Tandremo kosa anefa fa misy orinasa en ligne mampanatena anao ny hahazo vola be rehefa mampiasa vola ao aminy ianao. Ohatra manao depot 10 dollars ianao, dia mandray 6$ par jours, mitandrema fa orinasa tsy ara-dalana ireny ary mety hahavery vola ihany koa. Raha azo atao dia tsara ihany ianao raha ohatra ka mahazo vola kely ihany nefa maharitra ela ny orinasa hiasanao. 
+
+<h6>Tombony:</h6><br >
+
+Fahafahana manohana tetikasa vaovao: Afaka mitondra fanovana na vokatra vaovao eto an-tany. <br >
+Tombony ambony: Raha mahomby ny orinasa dia mety ho avo be ny fiverenana.<br >
+Tsy mandany fotoana be ny asa atao, dia azahoanao vola 900ar 100000ar par jours. Miankina amin'ny  vola ampiasainao izany <br ></p> <br ><br >
+
+<h1>IRETO MISY SITE D'INVESTISSEMENT LONGUE TERME IZAY AFAHANAO MAMPIASA NY VOLA SUR INTERNET </h1>
+                    `;
+                    break;
+                case 'gratuit':
+                    contentHTML = `
+                        <h1>Site gratuit</h1>
+                        <p>Ity ny fampahalalana momba ny site gratuit, izay manolotra serivisy maimaim-poana.</p>
+                    `;
+                    break;
+                case 'formation':
+                    contentHTML = `
+                        <h1>Formation HTML & CSS gratuit </h1>
+                        <p>Ny fampianarana dia natao amin'ny fiteny frantsay, tsy misy droit efainao na écolage fa gratuit tanteraka . Mba afahanao manomboka amin'ilay information dia tsindrio ilay bouton commencer eto ambany </p><br >
+                        
+                        <h1>Formation payante </h1><br >
+                        <p>Ny fampianarana dia amin'ny fiteny'malagasy, mora azo tsara ary afaka atao amin'ny téléphone 📱 izany. Ny droit dia 30.000ar tsy misy écolage fa droit ihany. Raha liana ianao dia ny bouton s'inscrire eto ambany </p><br >
+                   
+                    <a href="https://form.jotform.com/243618887253064"> 🔛s'inscrire </a>    
+                       
+                       
+                    `;
+                    break;
+                case 'depot':
+                    contentHTML = `
+                        <h1>Dépôt</h1>
+                        <p>Ity ny fampahalalana momba ny Dépôt. Afaka mametraka vola ianao eto.</p>
+                        
+                    `;
+                    break;
+                case 'retrait':
+                    contentHTML = `
+                        <h1>Retrait</h1>
+                        <p>Ity ny fampahalalana momba ny Retrait. Afaka manala vola ianao eto.</p>
+                    `;
+                    break;
+                case 'cv':
+                    contentHTML = `
+                        <h1>Création CV et Lettre de motivation</h1>
+                        
+                        <img src="r.jpg" alt="">
+                        <p>Ity ny fampahalalana momba ny création CV sy lettre de motivation.</p>
+                    `;
+                    break;
+                case 'web':
+                    contentHTML = `
+                        <h1>Création site Web</h1>
+                        <p>Ity ny fampahalalana momba ny création site Web. Afaka manamboatra tranokala ianao eto.</p>
+                    `;
+                    break;
+                case 'airdrop':
+                    contentHTML = `
+                        <h1>Projet airdrop</h1>
+                        <p>Ity ny fampahalalana momba ny projet airdrop. Afaka mahazo tombony ianao amin'ny tetikasa airdrop.</p>
+                    `;
+                    break;
+                default:
+                    contentHTML = `
+                        <h1>Fampahalalana tsy misy</h1>
+                        <p>Tsy misy fampahalalana azo aseho amin'ity bouton ity.</p>
+                    `;
+            }
+
+            contentDiv.innerHTML = contentHTML;
+        }
+    </script>
+   
+</body>
+<script src="//code.tidio.co/qohm2j6hy5em7agru8tgjkx0b52hw6wj.js" async></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const elfsightWidget = document.querySelector(".elfsight-app-1eff39fc-46a7-4078-9f06-be4619be5c57");
+    if (elfsightWidget) {
+      elfsightWidget.style.position = "fixed"; // Atao eo amin'ny toerana voafetra
+      elfsightWidget.style.bottom = "20px";    // Elanelana avy any ambany
+      elfsightWidget.style.left = "20px";      // Elanelana avy any ankavia
+      elfsightWidget.style.zIndex = "1000";    // Ambony kokoa
+    } else {
+      console.error("Tsy hita ilay widget Elfsight!");
+    }
+  });
+</script>
+
+</html>
